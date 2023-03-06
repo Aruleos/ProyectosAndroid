@@ -40,7 +40,7 @@ class MyPassInput extends StatelessWidget {
         padding: const EdgeInsets.only(left: 70, right: 70),
         child: TextFormField(
           controller: inputController,
-          keyboardType: TextInputType.visiblePassword,
+          keyboardType: TextInputType.text,
           decoration: InputDecoration(
               border: const UnderlineInputBorder(),
               prefixIcon: const Icon(Icons.password),
